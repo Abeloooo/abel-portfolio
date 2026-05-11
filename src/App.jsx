@@ -53,6 +53,8 @@ export default function CyberPortfolio() {
 
       {/* HERO */}
       <section className="text-center py-32 px-6">
+
+      
         <p className="text-cyan-400 tracking-[0.3em] mb-4">
           BLUE TEAM CYBER SECURITY ANALYST
         </p>
@@ -84,6 +86,21 @@ export default function CyberPortfolio() {
           >
             Contact Me
           </button>
+        </div>
+      </section>
+
+      {/* ABOUT */}
+      <section className="px-8 py-20 max-w-5xl mx-auto text-left">
+        <h2 className="text-4xl text-cyan-400 font-bold mb-6">About Me</h2>
+
+        <div className="space-y-5 leading-relaxed text-gray-400">
+          <p>
+            I am Abel Anbese, a Blue Team Cybersecurity Analyst with a strong focus on SOC operations, incident response, SIEM monitoring, threat hunting, and security automation. I specialize in strengthening defensive security by designing scalable detection systems and improving visibility across enterprise environments.
+          </p>
+
+          <p>
+            I have practical experience working with tools such as Splunk,Qradar, Cortex XSOAR, Wireshark, and Linux-based systems. I am passionate about building automation workflows that reduce manual effort for SOC analysts and enhance the speed and accuracy of incident response.
+          </p>
         </div>
       </section>
 
@@ -171,7 +188,7 @@ export default function CyberPortfolio() {
 
       {/* FOOTER */}
       <footer className="text-center py-8 text-gray-500 border-t border-white/10">
-        © 2026 ABEL_ANBESE. ALL_RIGHTS_RESERVE
+        © 2026 ABEL_ANBESE. ALL_RIGHTS_RESERVED.
       </footer>
 
     </div>
